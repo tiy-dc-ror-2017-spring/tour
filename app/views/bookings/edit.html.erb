@@ -1,0 +1,25 @@
+<h1>Editing <%= @booking.customer_name %>'s trip to <%= @booking.destination %></h1>
+
+<%# form_tag "/bookings/#{@booking.id}", method: "patch" do %>
+  <%# label_tag "booking[customer_name]", "Customer" %>
+  <%# text_field_tag "booking[customer_name]", @booking.customer_name  %>
+
+  <%# label_tag "booking[destination]", "Destination" %>
+  <%# text_field_tag "booking[destination]", @booking.destination  %>
+
+  <%# label_tag "booking[start_at]", "Start At" %>
+  <%# date_field_tag "booking[start_at]", @booking.start_at&.to_date %>
+
+  <%# label_tag "booking[end_at]", "End At" %>
+  <%# date_field_tag "booking[end_at]", @booking.end_at&.to_date %>
+
+  <%# submit_tag %>
+<%# end %>
+
+<!-- <hr> -->
+
+<!-- <h2>Form For</h2> -->
+
+<% url_for(@booking) %>
+
+<%= render "form" %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+poo_poo_head:
+  customer_name: Moose Osborne
+  destination: The Bitter End
+  start_at: 2017-03-20 11:54:58
+  end_at: 2017-03-20 11:54:58
+
+robby:
+  customer_name: Robby Dore
+  destination: The Atlas Bouy
+  start_at: 2017-03-20 11:54:58
+  end_at: 2017-03-20 11:54:58
